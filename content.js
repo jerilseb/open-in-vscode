@@ -51,11 +51,26 @@ async function sendToLocalScript(repoUrl) {
     }
 }
 
+function isPrivateRepo() {
+    // Method 1: Check for the "Private" label in the repo title component
+    const privateLabel = document.querySelector('#repo-title-component .Label--secondary');
+    if (privateLabel && privateLabel.textContent.trim() === 'Private') {
+        return true;
+    }
+    return false;
+}
+
 function createCloneButton() {
     const repoUrl = getRepoUrl();
     if (!repoUrl) {
         // console.log("Not on a main GitHub repo page, button not added.");
         return null; // Don't add button if not a clear repo URL
+    }
+    
+    // Don't add button for private repositories
+    if (isPrivateRepo()) {
+        console.log("Repository is private, not adding VSCode button.");
+        return null;
     }
 
     const buttonId = `${BUTTON_ID_PREFIX}${repoUrl.split('/').slice(-2).join('-').replace('.git','')}`;
