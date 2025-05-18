@@ -24,8 +24,7 @@ The python listener needs to be running for the extension to work. To have the l
 ```
 [Desktop Entry]
 Exec=/usr/bin/python3 <path_to_github_listener.py>
-Icon=dialog-scripts
-NoDisplay=false
+NoDisplay=true
 Name=Github-Listener
 Type=Application
 ```
