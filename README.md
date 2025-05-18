@@ -16,7 +16,7 @@ A Chrome extension that adds an "Open in VSCode" button to GitHub repository pag
 4. Click "Load unpacked" and select the directory containing this extension
 5. The extension should now be installed and active
 
-#### Python Listener
+### Python Listener
 
 The python listener needs to be running for the extension to work. To have the listener start automatically when you log in:
 
