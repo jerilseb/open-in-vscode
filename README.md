@@ -18,7 +18,7 @@ A Chrome extension that adds an "Open in VSCode" button to GitHub repository pag
 
 ### Python Listener
 
-The python listener needs to be running for the extension to work. To have the listener start automatically when you log in:
+The python listener needs to be running for the extension to work. The script has no external dependencies other than Python. To have the listener start automatically when you log in:
 
 **On Linux:**
 - Create an entry in the `.config/autostart` directory. For example
