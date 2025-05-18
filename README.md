@@ -1,6 +1,6 @@
 # Open in VSCode
 
-A Chrome extension that adds an "Open in VSCode" button to GitHub repository pages. With a single click, this extension clones the repository to your desktop and opens it in Visual Studio Code.
+A Chrome extension that adds an "Open in VSCode" button to GitHub repository pages. With a single click, this extension clones the repository to your desktop and opens it in Visual Studio Code. Note that the button only appears on public repositories.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
