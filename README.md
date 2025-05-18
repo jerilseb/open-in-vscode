@@ -4,6 +4,8 @@ A Chrome extension that adds an "Open in VSCode" button to GitHub repository pag
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+![image](https://github.com/user-attachments/assets/3228edbc-a4df-4d4c-a0f2-62b2772b6a5f)
+
 ## Installation
 
 ### Chrome Extension
