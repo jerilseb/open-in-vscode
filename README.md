@@ -16,14 +16,14 @@ A Chrome extension that adds an "Open in VSCode" button to GitHub repository pag
 
 #### Python Listener
 
-The python listener needs to run for the extension to work. To have the listener start automatically when you log in:
+The python listener needs to be running for the extension to work. To have the listener start automatically when you log in:
 
 **On Linux:**
 - Create an entry in the `.config/autostart` directory. For example
 
 ```
 [Desktop Entry]
-Exec=/usr/bin/python3 /home/jeril/Desktop/github-vscode/github_listener.py
+Exec=/usr/bin/python3 <path_to_github_listener.py>
 Icon=dialog-scripts
 NoDisplay=false
 Name=Github-Listener
@@ -35,7 +35,6 @@ Type=Application
 1. Navigate to any GitHub repository page
 2. You'll see an "Open in VSCode" button next to the "Code" button
 3. Click the button to clone the repository to your desktop and open it in VS Code
-4. The repository will be cloned to a temporary directory on your desktop
 
 ## Requirements
 
